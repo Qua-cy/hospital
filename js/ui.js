@@ -66,7 +66,6 @@ $.fn.UiBackTop = function(){
 }
 
 Array.prototype.slice.call($('.content-tab .block-list .item')).forEach(function(el){
-	console.log(el);
 	el.onclick = function(){
 		window.open('hospital_detail.html', '_self');
 	}
