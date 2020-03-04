@@ -1,0 +1,99 @@
+/* hospital system-预约挂号 */
+.ui-hos-appoint{
+    display: block;
+}
+
+/* hospital system-医院介绍 */
+
+.ui-hos-intro p {
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 30px;
+    margin: 15px 0;
+    padding: 0 20px;
+}
+
+
+/* hospital system-预约须知 */
+
+.ui-hos-notice>* {
+    padding: 0 20px;
+    line-height: 30px;
+}
+
+.ui-hos-notice h3 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.ui-hos-notice h4 {
+    margin-top: 30px;
+}
+
+.ui-hos-notice p {
+    font-size: 14px;
+}
+
+
+/* hospital system-停诊信息 */
+
+.ui-hos-stopinfro h3 {
+    padding: 0 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.ui-hos-stopinfro table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.ui-hos-stopinfro table th,
+.ui-hos-stopinfro table td {
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    font-size: 14px;
+    color: #575859;
+    height: 30px;
+}
+
+
+/* hospital system-查询取消 */
+
+.ui-hos-search .ui-hos-search-line {
+    width: 100%;
+    height: 200px;
+    margin: 80px auto;
+    border-top: 2px solid #eceded;
+    border-bottom: 2px solid #eceded;
+}
+
+.ui-hos-search .ui-hos-search-wrap {
+    width: 500px;
+    height: 50px;
+    margin: 75px auto;
+}
+
+.ui-hos-search .ui-hos-search-wrap b {
+    line-height: 50px;
+    color: #3a3a3a;
+}
+
+.ui-hos-search .ui-hos-search-wrap input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ddd;
+}
+
+.ui-hos-search .ui-hos-search-wrap button {
+    width: 100px;
+    height: 30px;
+    vertical-align: middle;
+    background-color: #00b3ec;
+    color: #fff;
+}
+
+.ui-hos-search .ui-hos-search-wrap button:hover {
+    cursor: pointer;
+}

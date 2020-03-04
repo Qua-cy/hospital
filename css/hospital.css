@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    display: block;
+    content: ' ';
+    clear: both;
+    zoom: 1;
+}
+
+
+/* top */
+
+.top {
+    width: 100%;
+    height: 30px;
+    background-color: #f5f5f5;
+}
+
+.top-wrap {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top-left {
+    float: left;
+    text-indent: 20px;
+    line-height: 30px;
+    color: #868686;
+    font-size: 14px;
+    background: url('../img/icon-call.png') center left no-repeat;
+}
+
+.top-right {
+    float: right;
+    font-size: 14px;
+    line-height: 30px;
+    color: #868686;
+}
+
+.top-right a {
+    margin-left: 25px;
+    color: #2da5e1;
+}
+
+.top-right a:last-child {
+    margin-left: 50px;
+}
+
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.header-wrap {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header .header-logo img {
+    position: relative;
+    top: 3px;
+    width: 74px;
+	height: 74px;
+	vertical-align: middle;
+    margin-right: 10px;
+}
+
+.header .header-logo span{
+    position: relative;
+    top:8px;
+	font-size: 25px;
+    color: #222;
+    font-weight: bold;
+}
+
+.header-search {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+    width: 326px;
+    height: 38px;
+    background: url('../img/ui-search.jpg') center no-repeat;
+}
+
+.header-search-selected {
+    width: 70px;
+    height: 38px;
+    line-height: 38px;
+    text-indent: 10px;
+    font-size: 14px;
+    color: #fff;
+    top: 0;
+    left: 0;
+}
+
+.header-search-selected:hover{
+    cursor: pointer;
+}
+
+.header-search-dropdown{
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    background-color:#fff;
+    width: 70px;
+    height: 75px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.1) ;
+}
+
+.header-search-dropdown a{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #9a9b9a;
+}
+
+.header-search-dropdown a:hover{
+    background-color: #ebeef5;
+}
+
+.header-search-input {
+    position: absolute;
+    top: 6px;
+    left: 73px;
+    width: 208px;
+    height: 26px;
+    line-height: 26px;
+    outline: none;
+}
+
+.header-search-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 38px;
+}
+
+
+/* nav */
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #60bff2;
+}
+
+.nav-wrap {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.nav .nav-wrap a {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.nav .nav-wrap a:last-child {
+    float: right;
+}
+
+.nav .nav-wrap a:hover {
+    color: #87CEEB;
+}
+
+
+/* introduce */
+
+.intro {
+    width: 1160px;
+    height: 260px;
+    padding: 10px 20px;
+    margin: 30px auto;
+    background-color: #f7f7f7;
+}
+
+.intro-title {
+    width: 1160px;
+    height: 49px;
+    border-bottom: 1px solid #dcdddd;
+}
+
+.intro-title-left {
+    float: left;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.intro-title-left a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #f29600;
+}
+
+.intro-title-right {
+    float: right;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.intro-title-right span {
+    margin-left: 20px;
+    color: #00f;
+}
+
+
+/* introduce-explain */
+
+.intro-explain {
+    width: 1160px;
+    height: 210px;
+    position: relative;
+}
+
+.intro-explain-left {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 200px;
+    height: 150px;
+    background: url('../img/hospital-1.jpg');
+}
+
+.intro-explain-mid {
+    position: absolute;
+    width: 640px;
+    height: 180px;
+    line-height: 30px;
+    font-size: 14px;
+    top: 20px;
+    left: 260px;
+}
+
+.intro-explain-mid-icon span {
+    position: absolute;
+    left: 230px;
+    top: 25px;
+    width: 16px;
+    height: 21px;
+    background: url('../img/icon-web.png') 0 0 no-repeat;
+}
+
+.intro-explain-mid-icon span:nth-child(2) {
+    top: 55px;
+    background-position: 0 -22px;
+}
+
+.intro-explain-mid-icon span:nth-child(3) {
+    top: 85px;
+    background-position: 0 -41px;
+}
+
+.intro-explain-mid-icon span:nth-child(4) {
+    top: 115px;
+    background-position: 0 -61px;
+}
+
+.intro-explain-right {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 250px;
+    height: 165px;
+    background: url('../img/map-1.png') center no-repeat;
+}
+
+
+/* hospital system */
+
+.hos {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.hos-item {
+    width: 100%;
+    height: 38px;
+    font-size: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #60bff2;
+}
+
+.hos-wrap {
+    display: none;
+    width: 100%;
+    position: relative;
+}
+
+.hos-item a {
+    display: inline-block;
+    width: 110px;
+    height: 38px;
+    font-size: 16px;
+    color: #60bff2;
+    line-height: 38px;
+    text-align: center;
+}
+
+.hos-item .focus {
+    background-color: #60bff2;
+    color: #fff;
+}
+
+.hos-content {
+    float: left;
+    width: 785px;
+    height: 408px;
+    border: 1px solid #f4f6fa;
+}
+
+.hos-content p {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-indent: 30px;
+    background-color: #f4f6fa;
+}
+
+.hos-content .depart1 {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #f4f6fa;
+}
+
+.hos-content .depart1 .depart1-item {
+    display: inline-block;
+    float: left;
+    width: 145px;
+    height: 90px;
+    color: #888;
+    text-align: center;
+    background-color: #f2fbff;
+}
+
+.hos-content .depart1 .depart1-detail {
+    display: inline-block;
+    float: right;
+    width: 640px;
+    height: 90px;
+    background-color: #fff;
+}
+
+.hos-content .depart1 .depart1-detail a {
+    display: inline-block;
+    color: #474948;
+    width: 155px;
+    font-size: 15px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    text-indent: 10px;
+}
+
+.hos-rule {
+    float: right;
+    width: 350px;
+    height: 290px;
+    border: 1px solid #f4f6fa;
+}
+
+.hos-rule>p {
+    width: 100%;
+    height: 40px;
+    color: #606060;
+    line-height: 40px;
+    text-indent: 10px;
+    background-color: #f4f6fa;
+}
+
+.hos-rule>p span {
+    font-size: 13px;
+    color: #60bff2;
+}
+
+.hos-rule-detail {
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+    position: relative;
+}
+
+.hos-rule-detail span {
+    display: inline-block;
+    line-height: 30px;
+}
+
+.hos-rule-detail span:nth-child(odd) {
+    position: absolute;
+    left: 10px;
+    width: 90px;
+    color: #555;
+}
+
+.hos-rule-detail span:nth-child(even) {
+    position: absolute;
+    left: 100px;
+    width: 215px;
+    font-size: 13px;
+    color: #888;
+}
+
+.hos-rule-detail span:nth-child(3),
+.hos-rule-detail span:nth-child(4) {
+    top: 30px;
+}
+
+.hos-rule-detail span:nth-child(5),
+.hos-rule-detail span:nth-child(6) {
+    top: 60px;
+}
+
+.hos-rule-detail span:nth-child(7),
+.hos-rule-detail span:nth-child(8) {
+    top: 120px;
+}
+
+.hos-rule-detail span:nth-child(9),
+.hos-rule-detail span:nth-child(10) {
+    top: 150px;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: #eceef2;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 80px;
+    color: #666;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>5-12项目作业(scheduling)</title>
+    <link rel="stylesheet" href="css/hospital.css">
+    <link rel="stylesheet" href="css/scheduling.css">
+
+    <body>
+        <!-- top -->
+        <div class="top">
+            <div class="top-wrap">
+                <div class="top-left">010-114/116114电话预约</div>
+                <div class="top-right">
+                    欢迎来到城市预约挂号统一平台 请
+                    <a href="#2">登录</a>
+                    <a href="#2">注册</a>
+                    <a href="#2">帮助中心</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- header -->
+        <div class="header">
+            <div class="header-wrap">
+                <a href="index.html" class="header-logo">
+                    <img src="img/logo.png" alt="logo">
+                    <span>城市预约挂号统一平台</span>
+                </a>
+                <div class="header-search">
+                    <div class="header-search-selected">医院</div>
+                    <div class="header-search-dropdown">
+                        <a href="#2" class="item">科室</a>
+                        <a href="#2" class="item">疾病</a>
+                        <a href="#2" class="item">医院</a>
+                    </div>
+                    <input type="search" class="header-search-input" placeholder="请输入搜索内容">
+                    <a href="#4" class="header-search-submit"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- nav -->
+        <div class="nav">
+            <div class="nav-wrap">
+                <a href="index.html">首页</a>
+                <a href="#">按医院挂号</a>
+                <a href="#">按科室挂号</a>
+                <a href="#">按疾病挂号</a>
+                <a href="#">最新公告</a>
+                <a href="#">社会知名医院</a>
+            </div>
+        </div>
+
+        <!-- introduce -->
+        <div class="intro">
+
+            <div class="intro-title">
+                <h3 class="intro-title-left">北京协和医院<a href="#4">关注医院</a></h3>
+                <p class="intro-title-right"><span>等级：</span>三级甲等<span>区域：</span>东城区<span>分类：</span>中国医科院所属医院</p>
+            </div>
+
+            <div class="intro-explain">
+                <div class="intro-explain-left"></div>
+                <div class="intro-explain-mid-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="intro-explain-mid">
+                    <p>[东院]北京市东城区帅府园一号[西院]北京市西城区大木仓胡同41号</p>
+                    <p>http://www.punch.cn/</p>
+                    <p>东院咨询台：010-69155564；西院咨询台：010-69158010</p>
+                    <p>东院：106，108，110，111，116，684，684到东单路口北，41，104块，914到东单路口南；1，34，453，345到东单路交口，20，34，54，56，到东单路口懂，234，456，443，434到新东安市场；地铁1，2号线到东单。西院：34到辟才胡同洞口，更多乘车路线详见须知。</p>
+                </div>
+                <div class="intro-explain-right"></div>
+            </div>
+
+        </div>
+
+        <!-- department scheduling -->
+        <div class="scheduling ">
+            <p>科室排班表<a href="hospital_detail.html" target="_self">返回科室列表</a></p>
+            <div class="scheduling-detail clearfix">
+                <div class="scheduling-detail-left">
+                    <div class="prev"></div>
+                    <p>上午</p>
+                    <p>下午</p>
+                    <p>晚上</p>
+                </div>
+                <div class="scheduling-detail-mid">
+                    <!-- <div class="scheduling-detail-mid-header clearfix">
+                        <div class="time">
+                            <p>星期四</p>
+                            <p>2017-03-09</p>
+                        </div>                        
+                    </div>
+                    <div class="scheduling-detail-mid-body">
+                        <div class="appoint">
+                            <div class="timenode morning"></div>
+                            <div class="timenode noon">约满</div>
+                            <div class="timenode night"></div>  
+                        </div>
+                    </div> -->
+                </div>
+                <div class="scheduling-detail-right">
+                    <div class="next"></div>
+                </div>
+                <div class="scheduling-detail-rule">
+                    <p>预约规则</p>
+                    <p>预约周期：</p>
+                    <p>7天</p>
+                    <p>放号时间：</p>
+                    <p>8:30</p>
+                    <p>停挂时间：</p>
+                    <p>下午14：00停止次日预约挂号（周五14：00后停挂至下周一）</p>
+                    <p>退号时间：</p>
+                    <p>就诊前一工作日14：00之前取消</p>
+                    <p>特殊规则：</p>
+                    <p>1、取号地点不同：西院区预约号取号地点：西院区门诊楼一层大厅挂号窗口取号。东院区预约号取号地点：东院区老门诊楼一层大厅挂号窗口或新门诊楼各楼层挂号/收费窗口取号。</p>
+                </div>
+                <div class="scheduling-detail-bottom">
+                    <div class="text"><img src="img/icon-info.jpg" alt=""><i>您还没有选择就诊日期</i></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            Copyright &nbsp; &copy; &nbsp; 2019慕课网版权所有
+        </div>
+
+        <!-- js引入 -->
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/scheduling.js"></script>
+    </body>
+
+</html>
